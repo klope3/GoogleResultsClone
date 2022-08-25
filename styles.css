@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.topBar {
+    background-color: gray;
+}
+
+.searchResults {
+    background-color: pink;
+    max-width: 650px;
+    margin-left: 130px;
+}
+
+.bottomBar {
+    background-color: orange;
+}
