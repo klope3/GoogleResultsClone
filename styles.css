@@ -2,6 +2,9 @@
 
 body {
     margin: 0;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4em;
 }
 /* #endregion */
 
@@ -85,9 +88,72 @@ body {
 
 /* #region Search Results Section */
 .searchResults {
-    background-color: pink;
     max-width: 650px;
     margin-left: 180px;
+}
+
+.searchResultSingle {
+    margin: 20px 0px;
+}
+
+.searchResults h2 {
+    margin: 0;
+}
+
+.searchResults p {
+    margin-top: 5px;
+}
+
+.searchResultMainLink {
+    text-decoration: none;
+}
+
+.searchResultMainLink span {
+    color: black;
+}
+
+.searchResultMainLink:hover h2 {
+    text-decoration: underline;
+}
+
+.searchResultMainLink:visited h2 {
+    color: blue;
+}
+
+.searchResults > span {
+    margin-top: 6px;
+    margin-bottom: 14px;
+    display: block;
+    color: gray;
+}
+
+.peopleAlsoAsk {
+    border: 1px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.peopleAlsoAsk h2 {
+    padding: 10px;
+}
+
+.peopleAlsoAsk button {
+    display: block;
+    width: 105%;
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid rgb(183, 183, 183);
+    background-color: white;
+}
+
+.peopleAlsoAsk i {
+    float: right;
+    position: relative;
+    right: 40px;
 }
 
 /* #endregion */
