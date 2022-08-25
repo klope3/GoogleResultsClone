@@ -6,9 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a66da64dda.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="topBar">Logo, search bar, tabs, top-right buttons</div>
+    <div class="topBar">
+        <div class="topBarTopHalf">
+            <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="Google Logo" class="logo">
+            <div class="inputContainerParent">
+                <div class="inputContainer">
+                    <input type="text" class="searchField">
+                    <div class="searchButtons">
+                        <input type="button" class="searchButtonSingle" id="searchButtonX">
+                        <input type="button" class="searchButtonSingle" id="searchButtonMic">
+                        <input type="button" class="searchButtonSingle">
+                    </div>
+                </div>
+            </div>
+            <a href="#"><img src="https://www.svgrepo.com/show/42113/keyboard-buttons-or-visualization-button-of-nine-squares.svg" alt="Button Grid" class="topRightButton"></a>
+            <a href="#"><img src="https://randomuser.me/api/portraits/men/68.jpg" alt="Profile Picture" class="topRightButton" id="profilePic"></a>
+        </div>
+        <div class="topBarBotHalf">
+            <div class="topBarTabs">
+                <a href="#">All</a>
+                <a href="#">News</a>
+                <a href="#">Images</a>
+                <a href="#">Videos</a>
+                <a href="#">Shopping</a>
+                <a href="#">More</a>
+            </div>
+            <div class="topBarTabs">
+                <a href="#">Settings</a>
+                <a href="#">Tools</a>
+            </div>
+        </div>
+    </div>
     <div class="searchResults">
         <div class="searchResultSingle">
             <a href="#"><h2>Search Result</h2></a>

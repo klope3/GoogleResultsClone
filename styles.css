@@ -3,7 +3,66 @@ body {
 }
 
 .topBar {
-    background-color: gray;
+    /* background-color: gray; */
+    margin: 0px 20px;
+}
+
+.topBarTopHalf {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputContainerParent {
+    flex: 1;
+} /* the flex item containing the input elements */
+
+.inputContainer {
+    position: relative;
+    max-width: 762px;
+} /* the container for positioning the input elements */
+
+.searchField {
+    height: 38px;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.searchButtons {
+    display: flex;
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    gap: 17px;
+}
+
+.searchButtonSingle {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/61/61088.png");
+    width: 27px;
+    height: 27px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+}
+
+#searchButtonX {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/75/75519.png");
+}
+
+#searchButtonMic {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25682.png");
+}
+
+.topBarBotHalf {
+    display: flex;
+    margin-left: 160px;
+    gap: 60px;
+}
+
+.topBarTabs {
+    display: flex;
+    gap: 10px;
 }
 
 .searchResults {
@@ -14,4 +73,17 @@ body {
 
 .bottomBar {
     background-color: orange;
+}
+
+.logo {
+    width: 130px;
+}
+
+.topRightButton {
+    width: 25px;
+}
+
+#profilePic {
+    border-radius: 100px;
+    width: 35px;
 }
