@@ -1,7 +1,11 @@
+/* #region Defaults */
+
 body {
     margin: 0;
 }
+/* #endregion */
 
+/* #region Top Bar */
 .topBar {
     /* background-color: gray; */
     margin: 0px 20px;
@@ -65,16 +69,6 @@ body {
     gap: 10px;
 }
 
-.searchResults {
-    background-color: pink;
-    max-width: 650px;
-    margin-left: 130px;
-}
-
-.bottomBar {
-    background-color: orange;
-}
-
 .logo {
     width: 130px;
 }
@@ -87,3 +81,19 @@ body {
     border-radius: 100px;
     width: 35px;
 }
+/* #endregion */
+
+/* #region Search Results Section */
+.searchResults {
+    background-color: pink;
+    max-width: 650px;
+    margin-left: 180px;
+}
+
+/* #endregion */
+
+/* #region Bottom Bar */
+.bottomBar {
+    background-color: orange;
+}
+/* #endregion */
