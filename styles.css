@@ -16,6 +16,7 @@ a {
 .topBar {
     /* background-color: gray; */
     margin: 0px 20px;
+    border-bottom: 1px solid gray;
 }
 
 .topBarTopHalf {
@@ -42,15 +43,15 @@ a {
 .searchButtons {
     display: flex;
     position: absolute;
-    top: 11px;
+    top: 12px;
     right: 20px;
     gap: 17px;
 }
 
 .searchButtonSingle {
     background-image: url("https://cdn-icons-png.flaticon.com/512/61/61088.png");
-    width: 27px;
-    height: 27px;
+    width: 21px;
+    height: 21px;
     background-size: contain;
     background-repeat: no-repeat;
     border: 0px;
@@ -73,7 +74,12 @@ a {
 
 .topBarTabs {
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.topBarTabs i {
+    margin-right: 5px;
 }
 
 .logo {
@@ -174,9 +180,9 @@ a {
 }
 
 .pageNumber {
-    font-size: 0.5em;
+    font-size: 0.42em;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .pageNumberLink:hover .pageNumber {
